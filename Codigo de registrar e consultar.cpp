@@ -103,7 +103,8 @@ for(laco=1; laco==1;)
 	printf("\n\nBem vindo ao sistema de registros da EBAC\n");
 	printf(" \nDigite opcao 1 para registrar um novo nome: ");
 	printf(" \nDigite opcao 2 para deletar um nome: ");
-	printf(" \nDigite opcao 3 para consultar um novo nome: ");	
+	printf(" \nDigite opcao 3 para consultar um novo nome: ");
+	printf("\n Sair do sistema\n\n");	
 	printf(" \nOpcão n°: \t");
 	scanf("%d", &opcao);
 	printf("Voce escolheu a opcao: %d\n", opcao);
@@ -123,6 +124,11 @@ for(laco=1; laco==1;)
 		
 		case 3:
 		consultar();
+		break;
+		
+		case 4:
+		printf("Obrigado por utilizar o sistema");
+		return 0;
 		break;
 		
 		default:
